@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.airtribe.NewsAggregator.controller.RegistrationControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-08-26T13:55:34" hostname="macOS-C02JX2HSQ6L7.local" time="1.305">
+  <properties/>
+  <testcase name="testRegister()" classname="org.airtribe.NewsAggregator.controller.RegistrationControllerTest" time="1.305"/>
+  <system-out><![CDATA[19:25:34.824 [Test worker] INFO org.hibernate.validator.internal.util.Version -- HV000001: Hibernate Validator 8.0.1.Final
+19:25:35.289 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+19:25:35.290 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+19:25:35.293 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 2 ms
+Verification token created for user: ajay.vala@gmail.com
+Verification url: http://localhost:80/verifyRegistration?token=245763e0-ef1d-432d-b537-df12e88e3357
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

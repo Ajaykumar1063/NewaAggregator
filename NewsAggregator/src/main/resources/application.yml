@@ -1,0 +1,37 @@
+server:
+  port: 8080
+
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:learner:af2df92b-f7c8-4a4a-a77b-908dbd0677ab
+    username: sa
+    password: password
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    h2:
+      console:
+        enabled: true
+        path: /h2-console
+
+
+
+  news:
+     base-url: https://newsapi.org/v2/top-headlines
+     total-url: https://newsapi.org/v2/everything
+     api-key: 8d611e2281ad48ef8a25f4edb7be0ecb
+
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+    org.springframework.security.oauth2: DEBUG
+    org.springframework.security.oauth2.server.authorization: DEBUG
+    org.springframework.security.oauth2.server.authorization.config: DEBUG
+
+security:
+  jwt:
+    secret-key: 8d3f4b61b7f930ac47e6c1e5f8a1d34b5a8b3f71e2c7d69c4b6e1d8c9f7a2e3b
+    expiration-time: 86400000

@@ -1,0 +1,6 @@
+{19:25:34.824 [Test worker] INFO org.hibernate.validator.internal.util.Version -- HV000001: Hibernate Validator 8.0.1.Final
+€19:25:35.289 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+v19:25:35.290 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+19:25:35.293 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 2 ms
+9Verification token created for user: ajay.vala@gmail.com
+dVerification url: http://localhost:80/verifyRegistration?token=245763e0-ef1d-432d-b537-df12e88e3357
